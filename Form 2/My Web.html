@@ -1,0 +1,76 @@
+ <!Document>
+<html>
+     <link rel="stylesheet" href="style.css">
+<head>
+
+</head>
+<body>
+   
+<script src="script.js"></script>
+<div class="form">
+<div>
+  <div class="input-container ic1">
+   <input type="text" id="Name" class="input" value="Shoeb Rafi" placeholder=" "/><br><br>
+   <div class="cut"></div>
+   <label for="Name" class="placeholder">Name</label>
+  </div>
+<div class="input-container ic2">
+  <input type="text" id="Address" value="addddddddddddyyyyy" class="input" placeholder=" "/>
+  <div class="cut"></div>
+  <label for="Address" class="placeholder">Address</label>
+</div>
+
+  <div class="dropdowns" >
+  <label for="city">Choose a city:</label>
+   <select name="city" id="city" value="">
+     <option value="Ahmedabd">Ahmedabd</option>
+     <option value="Gandhinagar">Gandhinagar</option>
+     <option value="Vadodara">Vadodara</option>
+     <option value="Gandhidam">Gandhidam</option>
+   </select>
+  </div>
+
+<div class="radios"><label class="texts">GST: </label>Yes<input type="radio" id="Yes" name="Gender" value="Yes" onclick='yesnoCheck()'/> No<input type="radio" onclick='yesnoCheck()'checked=True id="No" name="Gender" value="No"/>
+</div>
+<div class="input-container GstText" id='GstText'>
+<input type="text" id="GSTno" value="GGGGGGGGGGG6546546546" class="input" placeholder=" "/>
+<div class="cut"></div>
+<label for="GSTno" class="placeholder">GST No.</label>
+</div>
+
+<div class="checks">
+<input type="checkbox" id="Registered Company" checked=True name="Registered Company" value="Registered Company"><label for="Registered Company"> Registered Company</label>
+</div>
+<div class ="contacts-field">
+<div class="input-container fln">
+<input type="text" id="FirstName" value="elbert" class="input" placeholder=" "/>
+<div class="cut" ></div>
+<label for="FirstName" class="placeholder">FirstName</label>
+
+</div>
+<div class="input-container fln">   
+<input type="text" id="LastName" value="einstien" class="input" placeholder=" "/>
+<div class="cut" ></div>
+<label for="LastName" class="placeholder">LastName</label>
+</div>
+<button  type="text" id="add contact" onclick="addcont()" style="background-color: #08d;border-radius: 12px;border: 0;box-sizing: border-box;color: #eee;cursor: pointer;font-size: 25px;height: 50%;align-self: center;text-align: center;width: 8%;">+</button>
+</div>
+<button type="text" class="submit" onclick="submitdata()">Submit</button>
+
+</div>
+<div class="contacts">
+<table id="contactlists">
+
+</table>
+</div>
+
+
+</div>
+
+<div class="memorylist">
+<table id="datalists">
+
+</table>
+</div>
+</body>
+</html>
